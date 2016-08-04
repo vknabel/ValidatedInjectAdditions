@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                         DESC
   #s.homepage         = "https://vknabel.github.io/ValidatedInjectAdditions"
   s.homepage         =  "https://github.com/vknabel/ValidatedInjectAdditions"
-  s.license          = { :type => "MIT", :file => "LICENSE.md" }
+  s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Valentin Knabel" => "develop@vknabel.com" }
   s.social_media_url = "https://twitter.com/vknabel"
   s.source           = { :git => "https://github.com/vknabel/ValidatedInjectAdditions.git", :tag => s.version.to_s }
