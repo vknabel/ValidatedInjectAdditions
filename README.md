@@ -33,8 +33,6 @@ github "vknabel/ValidatedInjectAdditions.git" ~> 0.1
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-pod 'EasyInject', '~> 0.2'
-
 pod 'EasyInject', '~> 0.3'
 pod 'ValidatedExtension', '~> 3.0'
 pod 'ValidatedInjectAdditions.git', '~> 0.1'

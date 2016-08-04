@@ -17,4 +17,6 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.requires_arc = true
   s.source_files     = 'Sources/**/*.swift'
+  s.dependency 'EasyInject', '~> 0.3'
+  s.dependency 'ValidatedExtension', '~> 3.0'
 end
