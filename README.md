@@ -1,5 +1,5 @@
 # ValidatedInjectAdditions
-ValidatedInjectAdditions adds some convenience methods for projects that are using (EasyInject)[https://www.github.com/vknabel/EasyInject] and (ValidatedExtension)[https://www.github.com/vknabel/ValidatedExtension].
+ValidatedInjectAdditions adds some convenience methods for projects that are using [EasyInject](https://www.github.com/vknabel/EasyInject) and [ValidatedExtension](https://www.github.com/vknabel/ValidatedExtension).
 
 ## Installation
 EasyInject is a Swift only project and supports [Swift Package Manager](https://github.com/apple/swift-package-manager), [Carthage](https://github.com/Carthage/Carthage) and [CocoaPods](https://github.com/CocoaPods/CocoaPods).
