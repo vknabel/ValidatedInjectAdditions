@@ -28,21 +28,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BAEE58361D53DAB1000A927B /* PBXContainerItemProxy */ = {
+		BA7671FB1D5DC3AE0030AB7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_EasyInject";
 			remoteInfo = EasyInject;
 		};
-		BAEE58371D53DAB1000A927B /* PBXContainerItemProxy */ = {
+		BA7671FC1D5DC3AE0030AB7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_ValidatedExtension";
 			remoteInfo = ValidatedExtension;
 		};
-		BAEE58381D53DAB1000A927B /* PBXContainerItemProxy */ = {
+		BA7671FD1D5DC3AE0030AB7D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
@@ -75,7 +75,7 @@
 		"_____Product_EasyInject" /* EasyInject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EasyInject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_ValidatedExtension" /* ValidatedExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ValidatedExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_ValidatedInjectAdditions" /* ValidatedInjectAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ValidatedInjectAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_ValidatedInjectAdditionsTestSuite" /* ValidatedInjectAdditionsTestSuite.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ValidatedInjectAdditionsTestSuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_ValidatedInjectAdditionsTestSuite" /* RelativePath(_impl: Basic.(PathImpl in _F37600050464D58680C1E5753557C388)(string: "ValidatedInjectAdditionsTestSuite.xctest")) */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RelativePath(_impl: Basic.(PathImpl in _F37600050464D58680C1E5753557C388)(string: \"ValidatedInjectAdditionsTestSuite.xctest\"))"; path = ValidatedInjectAdditionsTestSuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +127,7 @@
 		TestProducts_ /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				"_____Product_ValidatedInjectAdditionsTestSuite" /* ValidatedInjectAdditionsTestSuite.xctest */,
+				"_____Product_ValidatedInjectAdditionsTestSuite" /* RelativePath(_impl: Basic.(PathImpl in _F37600050464D58680C1E5753557C388)(string: "ValidatedInjectAdditionsTestSuite.xctest")) */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -298,7 +298,7 @@
 			);
 			name = ValidatedInjectAdditionsTestSuite;
 			productName = ValidatedInjectAdditionsTestSuite;
-			productReference = "_____Product_ValidatedInjectAdditionsTestSuite" /* ValidatedInjectAdditionsTestSuite.xctest */;
+			productReference = "_____Product_ValidatedInjectAdditionsTestSuite" /* RelativePath(_impl: Basic.(PathImpl in _F37600050464D58680C1E5753557C388)(string: "ValidatedInjectAdditionsTestSuite.xctest")) */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -377,17 +377,17 @@
 		__Dependency_EasyInject /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_EasyInject" /* EasyInject */;
-			targetProxy = BAEE58361D53DAB1000A927B /* PBXContainerItemProxy */;
+			targetProxy = BA7671FB1D5DC3AE0030AB7D /* PBXContainerItemProxy */;
 		};
 		__Dependency_ValidatedExtension /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_ValidatedExtension" /* ValidatedExtension */;
-			targetProxy = BAEE58371D53DAB1000A927B /* PBXContainerItemProxy */;
+			targetProxy = BA7671FC1D5DC3AE0030AB7D /* PBXContainerItemProxy */;
 		};
 		__Dependency_ValidatedInjectAdditions /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_ValidatedInjectAdditions" /* ValidatedInjectAdditions */;
-			targetProxy = BAEE58381D53DAB1000A927B /* PBXContainerItemProxy */;
+			targetProxy = BA7671FD1D5DC3AE0030AB7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

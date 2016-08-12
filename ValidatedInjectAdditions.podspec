@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "ValidatedInjectAdditions"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Adds convenience when using ValidatedExtension and EasyInject"
   s.description      = <<-DESC
                         ValidatedExtension-EasyInject is a μ-library that adds convenience methods to EasyInject and ValidatedExtension.
@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   s.requires_arc = true
   s.source_files     = 'Sources/**/*.swift'
-  s.dependency 'EasyInject', '~> 0.3'
+  s.dependency 'EasyInject', '~> 0.5'
   s.dependency 'ValidatedExtension', '~> 3.0'
 end

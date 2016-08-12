@@ -1,0 +1,9 @@
+author: Valentin Knabel
+author_url: https://twitter.com/vknabel
+github_url: https://github.com/vknabel/ValidatedInjectAdditions
+module: ValidatedInjectAdditions
+module_version: 0.1.0
+root_url: https://vknabel.github.io/ValidatedInjectAdditions/
+readme: README.md
+output: docs/
+theme: fullwidth
