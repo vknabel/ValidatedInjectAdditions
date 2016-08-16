@@ -1,586 +1,467 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		_LinkFileRef_EasyInject_via_ValidatedInjectAdditions /* EasyInject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_EasyInject" /* EasyInject.framework */; };
-		_LinkFileRef_EasyInject_via_ValidatedInjectAdditionsTestSuite /* EasyInject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_EasyInject" /* EasyInject.framework */; };
-		_LinkFileRef_ValidatedExtension_via_ValidatedInjectAdditions /* ValidatedExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_ValidatedExtension" /* ValidatedExtension.framework */; };
-		_LinkFileRef_ValidatedExtension_via_ValidatedInjectAdditionsTestSuite /* ValidatedExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_ValidatedExtension" /* ValidatedExtension.framework */; };
-		_LinkFileRef_ValidatedInjectAdditions_via_ValidatedInjectAdditionsTestSuite /* ValidatedInjectAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_ValidatedInjectAdditions" /* ValidatedInjectAdditions.framework */; };
-		"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/AnyInjector.swift" /* AnyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/EasyInject-0.3.0/Sources/AnyInjector.swift" /* AnyInjector.swift */; };
-		"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/ComposedInjector.swift" /* ComposedInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/EasyInject-0.3.0/Sources/ComposedInjector.swift" /* ComposedInjector.swift */; };
-		"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/Core.swift" /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/EasyInject-0.3.0/Sources/Core.swift" /* Core.swift */; };
-		"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/CoreExtensions.swift" /* CoreExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/EasyInject-0.3.0/Sources/CoreExtensions.swift" /* CoreExtensions.swift */; };
-		"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/Extensions.swift" /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/EasyInject-0.3.0/Sources/Extensions.swift" /* Extensions.swift */; };
-		"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/GlobalInjector.swift" /* GlobalInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/EasyInject-0.3.0/Sources/GlobalInjector.swift" /* GlobalInjector.swift */; };
-		"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/LazilyInjectedProvider.swift" /* LazilyInjectedProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/EasyInject-0.3.0/Sources/LazilyInjectedProvider.swift" /* LazilyInjectedProvider.swift */; };
-		"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/LazyInjector.swift" /* LazyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/EasyInject-0.3.0/Sources/LazyInjector.swift" /* LazyInjector.swift */; };
-		"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/StrictInjector.swift" /* StrictInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/EasyInject-0.3.0/Sources/StrictInjector.swift" /* StrictInjector.swift */; };
-		"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/StrictlyInjectedProvider.swift" /* StrictlyInjectedProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/EasyInject-0.3.0/Sources/StrictlyInjectedProvider.swift" /* StrictlyInjectedProvider.swift */; };
-		"__src_cc_ref_Packages/ValidatedExtension-3.0.0/Sources/ValidatedExtension/ValidatedExtension.swift" /* ValidatedExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/ValidatedExtension-3.0.0/Sources/ValidatedExtension/ValidatedExtension.swift" /* ValidatedExtension.swift */; };
-		__src_cc_ref_Sources/ValidatedInjectAdditions.swift /* ValidatedInjectAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/ValidatedInjectAdditions.swift /* ValidatedInjectAdditions.swift */; };
-		__src_cc_ref_Tests/ValidatedInjectAdditions/ValidatedExtension_EasyInjectTests.swift /* ValidatedExtension_EasyInjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/ValidatedInjectAdditions/ValidatedExtension_EasyInjectTests.swift /* ValidatedExtension_EasyInjectTests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BA7671FB1D5DC3AE0030AB7D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_EasyInject";
-			remoteInfo = EasyInject;
-		};
-		BA7671FC1D5DC3AE0030AB7D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_ValidatedExtension";
-			remoteInfo = ValidatedExtension;
-		};
-		BA7671FD1D5DC3AE0030AB7D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_ValidatedInjectAdditions";
-			remoteInfo = ValidatedInjectAdditions;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		__PBXFileRef_EasyInject_Info.plist /* ValidatedInjectAdditions.xcodeproj/EasyInject_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ValidatedInjectAdditions.xcodeproj/EasyInject_Info.plist; sourceTree = SOURCE_ROOT; };
-		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/AnyInjector.swift" /* AnyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyInjector.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/ComposedInjector.swift" /* ComposedInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposedInjector.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/Core.swift" /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/CoreExtensions.swift" /* CoreExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreExtensions.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/Extensions.swift" /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/GlobalInjector.swift" /* GlobalInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalInjector.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/LazilyInjectedProvider.swift" /* LazilyInjectedProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazilyInjectedProvider.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/LazyInjector.swift" /* LazyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyInjector.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/StrictInjector.swift" /* StrictInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrictInjector.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/StrictlyInjectedProvider.swift" /* StrictlyInjectedProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrictlyInjectedProvider.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/ValidatedExtension-3.0.0/Sources/ValidatedExtension/ValidatedExtension.swift" /* ValidatedExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatedExtension.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Sources/ValidatedInjectAdditions.swift /* ValidatedInjectAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatedInjectAdditions.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Tests/ValidatedInjectAdditions/ValidatedExtension_EasyInjectTests.swift /* ValidatedExtension_EasyInjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatedExtension_EasyInjectTests.swift; sourceTree = "<group>"; };
-		__PBXFileRef_ValidatedExtension_Info.plist /* ValidatedInjectAdditions.xcodeproj/ValidatedExtension_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ValidatedInjectAdditions.xcodeproj/ValidatedExtension_Info.plist; sourceTree = SOURCE_ROOT; };
-		__PBXFileRef_ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig /* ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
-		__PBXFileRef_ValidatedInjectAdditionsTestSuite_Info.plist /* ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditionsTestSuite_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditionsTestSuite_Info.plist; sourceTree = SOURCE_ROOT; };
-		__PBXFileRef_ValidatedInjectAdditions_Info.plist /* ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditions_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditions_Info.plist; sourceTree = SOURCE_ROOT; };
-		__PBXFileRef_build /* build */ = {isa = PBXFileReference; lastKnownFileType = folder; path = build; sourceTree = "<group>"; };
-		"_____Product_EasyInject" /* EasyInject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EasyInject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_ValidatedExtension" /* ValidatedExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ValidatedExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_ValidatedInjectAdditions" /* ValidatedInjectAdditions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ValidatedInjectAdditions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_ValidatedInjectAdditionsTestSuite" /* RelativePath(_impl: Basic.(PathImpl in _F37600050464D58680C1E5753557C388)(string: "ValidatedInjectAdditionsTestSuite.xctest")) */ = {isa = PBXFileReference; lastKnownFileType = file; name = "RelativePath(_impl: Basic.(PathImpl in _F37600050464D58680C1E5753557C388)(string: \"ValidatedInjectAdditionsTestSuite.xctest\"))"; path = ValidatedInjectAdditionsTestSuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		"___LinkPhase_EasyInject" /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		"___LinkPhase_ValidatedExtension" /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		"___LinkPhase_ValidatedInjectAdditions" /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				_LinkFileRef_EasyInject_via_ValidatedInjectAdditions /* EasyInject.framework in Frameworks */,
-				_LinkFileRef_ValidatedExtension_via_ValidatedInjectAdditions /* ValidatedExtension.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		"___LinkPhase_ValidatedInjectAdditionsTestSuite" /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				_LinkFileRef_EasyInject_via_ValidatedInjectAdditionsTestSuite /* EasyInject.framework in Frameworks */,
-				_LinkFileRef_ValidatedExtension_via_ValidatedInjectAdditionsTestSuite /* ValidatedExtension.framework in Frameworks */,
-				_LinkFileRef_ValidatedInjectAdditions_via_ValidatedInjectAdditionsTestSuite /* ValidatedInjectAdditions.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		Dependencies_ /* Dependencies */ = {
-			isa = PBXGroup;
-			children = (
-				"_______Group_EasyInject" /* EasyInject */,
-				"_______Group_ValidatedExtension" /* ValidatedExtension */,
-			);
-			name = Dependencies;
-			sourceTree = "<group>";
-		};
-		TestProducts_ /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				"_____Product_ValidatedInjectAdditionsTestSuite" /* RelativePath(_impl: Basic.(PathImpl in _F37600050464D58680C1E5753557C388)(string: "ValidatedInjectAdditionsTestSuite.xctest")) */,
-			);
-			name = Tests;
-			sourceTree = "<group>";
-		};
-		"___RootGroup_" = {
-			isa = PBXGroup;
-			children = (
-				__PBXFileRef_Package.swift /* Package.swift */,
-				"_____Configs_" /* Configs */,
-				"_____Sources_" /* Sources */,
-				__PBXFileRef_build /* build */,
-				Dependencies_ /* Dependencies */,
-				"_______Tests_" /* Tests */,
-				"____Products_" /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		"____Products_" /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				TestProducts_ /* Tests */,
-				"_____Product_EasyInject" /* EasyInject.framework */,
-				"_____Product_ValidatedExtension" /* ValidatedExtension.framework */,
-				"_____Product_ValidatedInjectAdditions" /* ValidatedInjectAdditions.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		"_____Configs_" /* Configs */ = {
-			isa = PBXGroup;
-			children = (
-				__PBXFileRef_ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig /* ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig */,
-			);
-			name = Configs;
-			sourceTree = "<group>";
-		};
-		"_____Sources_" /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				"_______Group_ValidatedInjectAdditions" /* ValidatedInjectAdditions */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		"_______Group_EasyInject" /* EasyInject */ = {
-			isa = PBXGroup;
-			children = (
-				"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/AnyInjector.swift" /* AnyInjector.swift */,
-				"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/ComposedInjector.swift" /* ComposedInjector.swift */,
-				"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/Core.swift" /* Core.swift */,
-				"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/CoreExtensions.swift" /* CoreExtensions.swift */,
-				"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/Extensions.swift" /* Extensions.swift */,
-				"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/GlobalInjector.swift" /* GlobalInjector.swift */,
-				"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/LazilyInjectedProvider.swift" /* LazilyInjectedProvider.swift */,
-				"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/LazyInjector.swift" /* LazyInjector.swift */,
-				"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/StrictInjector.swift" /* StrictInjector.swift */,
-				"__PBXFileRef_Packages/EasyInject-0.3.0/Sources/StrictlyInjectedProvider.swift" /* StrictlyInjectedProvider.swift */,
-				__PBXFileRef_EasyInject_Info.plist /* ValidatedInjectAdditions.xcodeproj/EasyInject_Info.plist */,
-			);
-			name = EasyInject;
-			path = "Packages/EasyInject-0.3.0/Sources";
-			sourceTree = "<group>";
-		};
-		"_______Group_ValidatedExtension" /* ValidatedExtension */ = {
-			isa = PBXGroup;
-			children = (
-				"__PBXFileRef_Packages/ValidatedExtension-3.0.0/Sources/ValidatedExtension/ValidatedExtension.swift" /* ValidatedExtension.swift */,
-				__PBXFileRef_ValidatedExtension_Info.plist /* ValidatedInjectAdditions.xcodeproj/ValidatedExtension_Info.plist */,
-			);
-			name = ValidatedExtension;
-			path = "Packages/ValidatedExtension-3.0.0/Sources/ValidatedExtension";
-			sourceTree = "<group>";
-		};
-		"_______Group_ValidatedInjectAdditions" /* ValidatedInjectAdditions */ = {
-			isa = PBXGroup;
-			children = (
-				__PBXFileRef_Sources/ValidatedInjectAdditions.swift /* ValidatedInjectAdditions.swift */,
-				__PBXFileRef_ValidatedInjectAdditions_Info.plist /* ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditions_Info.plist */,
-			);
-			name = ValidatedInjectAdditions;
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		"_______Group_ValidatedInjectAdditionsTestSuite" /* ValidatedInjectAdditionsTestSuite */ = {
-			isa = PBXGroup;
-			children = (
-				__PBXFileRef_Tests/ValidatedInjectAdditions/ValidatedExtension_EasyInjectTests.swift /* ValidatedExtension_EasyInjectTests.swift */,
-				__PBXFileRef_ValidatedInjectAdditionsTestSuite_Info.plist /* ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditionsTestSuite_Info.plist */,
-			);
-			name = ValidatedInjectAdditionsTestSuite;
-			path = Tests/ValidatedInjectAdditions;
-			sourceTree = "<group>";
-		};
-		"_______Tests_" /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				"_______Group_ValidatedInjectAdditionsTestSuite" /* ValidatedInjectAdditionsTestSuite */,
-			);
-			name = Tests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		"______Target_EasyInject" /* EasyInject */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = "_______Confs_EasyInject" /* Build configuration list for PBXNativeTarget "EasyInject" */;
-			buildPhases = (
-				CompilePhase_EasyInject /* Sources */,
-				"___LinkPhase_EasyInject" /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = EasyInject;
-			productName = EasyInject;
-			productReference = "_____Product_EasyInject" /* EasyInject.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		"______Target_ValidatedExtension" /* ValidatedExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = "_______Confs_ValidatedExtension" /* Build configuration list for PBXNativeTarget "ValidatedExtension" */;
-			buildPhases = (
-				CompilePhase_ValidatedExtension /* Sources */,
-				"___LinkPhase_ValidatedExtension" /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ValidatedExtension;
-			productName = ValidatedExtension;
-			productReference = "_____Product_ValidatedExtension" /* ValidatedExtension.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		"______Target_ValidatedInjectAdditions" /* ValidatedInjectAdditions */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = "_______Confs_ValidatedInjectAdditions" /* Build configuration list for PBXNativeTarget "ValidatedInjectAdditions" */;
-			buildPhases = (
-				CompilePhase_ValidatedInjectAdditions /* Sources */,
-				"___LinkPhase_ValidatedInjectAdditions" /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				__Dependency_EasyInject /* PBXTargetDependency */,
-				__Dependency_ValidatedExtension /* PBXTargetDependency */,
-			);
-			name = ValidatedInjectAdditions;
-			productName = ValidatedInjectAdditions;
-			productReference = "_____Product_ValidatedInjectAdditions" /* ValidatedInjectAdditions.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		"______Target_ValidatedInjectAdditionsTestSuite" /* ValidatedInjectAdditionsTestSuite */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = "_______Confs_ValidatedInjectAdditionsTestSuite" /* Build configuration list for PBXNativeTarget "ValidatedInjectAdditionsTestSuite" */;
-			buildPhases = (
-				CompilePhase_ValidatedInjectAdditionsTestSuite /* Sources */,
-				"___LinkPhase_ValidatedInjectAdditionsTestSuite" /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				__Dependency_EasyInject /* PBXTargetDependency */,
-				__Dependency_ValidatedExtension /* PBXTargetDependency */,
-				__Dependency_ValidatedInjectAdditions /* PBXTargetDependency */,
-			);
-			name = ValidatedInjectAdditionsTestSuite;
-			productName = ValidatedInjectAdditionsTestSuite;
-			productReference = "_____Product_ValidatedInjectAdditionsTestSuite" /* RelativePath(_impl: Basic.(PathImpl in _F37600050464D58680C1E5753557C388)(string: "ValidatedInjectAdditionsTestSuite.xctest")) */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		__RootObject_ /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastUpgradeCheck = 9999;
-			};
-			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "ValidatedInjectAdditions" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = "___RootGroup_";
-			productRefGroup = "____Products_" /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				"______Target_EasyInject" /* EasyInject */,
-				"______Target_ValidatedExtension" /* ValidatedExtension */,
-				"______Target_ValidatedInjectAdditions" /* ValidatedInjectAdditions */,
-				"______Target_ValidatedInjectAdditionsTestSuite" /* ValidatedInjectAdditionsTestSuite */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		CompilePhase_EasyInject /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/AnyInjector.swift" /* AnyInjector.swift in Sources */,
-				"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/ComposedInjector.swift" /* ComposedInjector.swift in Sources */,
-				"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/Core.swift" /* Core.swift in Sources */,
-				"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/CoreExtensions.swift" /* CoreExtensions.swift in Sources */,
-				"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/Extensions.swift" /* Extensions.swift in Sources */,
-				"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/GlobalInjector.swift" /* GlobalInjector.swift in Sources */,
-				"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/LazilyInjectedProvider.swift" /* LazilyInjectedProvider.swift in Sources */,
-				"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/LazyInjector.swift" /* LazyInjector.swift in Sources */,
-				"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/StrictInjector.swift" /* StrictInjector.swift in Sources */,
-				"__src_cc_ref_Packages/EasyInject-0.3.0/Sources/StrictlyInjectedProvider.swift" /* StrictlyInjectedProvider.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CompilePhase_ValidatedExtension /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				"__src_cc_ref_Packages/ValidatedExtension-3.0.0/Sources/ValidatedExtension/ValidatedExtension.swift" /* ValidatedExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CompilePhase_ValidatedInjectAdditions /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				__src_cc_ref_Sources/ValidatedInjectAdditions.swift /* ValidatedInjectAdditions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CompilePhase_ValidatedInjectAdditionsTestSuite /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				__src_cc_ref_Tests/ValidatedInjectAdditions/ValidatedExtension_EasyInjectTests.swift /* ValidatedExtension_EasyInjectTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		__Dependency_EasyInject /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "______Target_EasyInject" /* EasyInject */;
-			targetProxy = BA7671FB1D5DC3AE0030AB7D /* PBXContainerItemProxy */;
-		};
-		__Dependency_ValidatedExtension /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "______Target_ValidatedExtension" /* ValidatedExtension */;
-			targetProxy = BA7671FC1D5DC3AE0030AB7D /* PBXContainerItemProxy */;
-		};
-		__Dependency_ValidatedInjectAdditions /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "______Target_ValidatedInjectAdditions" /* ValidatedInjectAdditions */;
-			targetProxy = BA7671FD1D5DC3AE0030AB7D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		_ReleaseConf_EasyInject /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = ValidatedInjectAdditions.xcodeproj/EasyInject_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = EasyInject;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		_ReleaseConf_ValidatedExtension /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = ValidatedInjectAdditions.xcodeproj/ValidatedExtension_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ValidatedExtension;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		_ReleaseConf_ValidatedInjectAdditions /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditions_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ValidatedInjectAdditions;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		_ReleaseConf_ValidatedInjectAdditionsTestSuite /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditionsTestSuite_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		"___DebugConf_EasyInject" /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = ValidatedInjectAdditions.xcodeproj/EasyInject_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = EasyInject;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		"___DebugConf_ValidatedExtension" /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = ValidatedInjectAdditions.xcodeproj/ValidatedExtension_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ValidatedExtension;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		"___DebugConf_ValidatedInjectAdditions" /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditions_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ValidatedInjectAdditions;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		"___DebugConf_ValidatedInjectAdditionsTestSuite" /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditionsTestSuite_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		"_____Release_" /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = __PBXFileRef_ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig /* ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig */;
-			buildSettings = {
-			};
-			name = Release;
-		};
-		"_______Debug_" /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = __PBXFileRef_ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig /* ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		"___RootConfs_" /* Build configuration list for PBXProject "ValidatedInjectAdditions" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"_______Debug_" /* Debug */,
-				"_____Release_" /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		"_______Confs_EasyInject" /* Build configuration list for PBXNativeTarget "EasyInject" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"___DebugConf_EasyInject" /* Debug */,
-				_ReleaseConf_EasyInject /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		"_______Confs_ValidatedExtension" /* Build configuration list for PBXNativeTarget "ValidatedExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"___DebugConf_ValidatedExtension" /* Debug */,
-				_ReleaseConf_ValidatedExtension /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		"_______Confs_ValidatedInjectAdditions" /* Build configuration list for PBXNativeTarget "ValidatedInjectAdditions" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"___DebugConf_ValidatedInjectAdditions" /* Debug */,
-				_ReleaseConf_ValidatedInjectAdditions /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		"_______Confs_ValidatedInjectAdditionsTestSuite" /* Build configuration list for PBXNativeTarget "ValidatedInjectAdditionsTestSuite" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"___DebugConf_ValidatedInjectAdditionsTestSuite" /* Debug */,
-				_ReleaseConf_ValidatedInjectAdditionsTestSuite /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = __RootObject_ /* Project object */;
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 46;
+    rootObject = __RootObject_;
+    objects = {
+        __RootObject_ = {
+            isa = PBXProject;
+            attributes = {LastUpgradeCheck = 9999;};
+            buildConfigurationList = ___RootConfs_;
+            compatibilityVersion = 'Xcode 3.2';
+            developmentRegion = English;
+            hasScannedForEncodings = 0;
+            knownRegions = (en);
+            mainGroup = ___RootGroup_;
+            productRefGroup = ____Products_;
+            projectDirPath = '';
+            projectRoot = '';
+            targets = (______Target_EasyInject, ______Target_ValidatedExtension, ______Target_ValidatedInjectAdditions, ______Target_ValidatedInjectAdditionsTests);
+        };
+        '__PBXFileRef_Package.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Package.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_build' = {
+            isa = PBXFileReference;
+            lastKnownFileType = folder;
+            name = 'build';
+            path = 'build';
+            sourceTree = '<group>';
+        };
+        ___RootGroup_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_Package.swift', _____Configs_, _____Sources_, '__PBXFileRef_build', Dependencies_, _______Tests_, ____Products_);
+            sourceTree = '<group>';
+        };
+        _______Group_EasyInject = {
+            isa = PBXGroup;
+            name = 'EasyInject';
+            path = 'Packages/EasyInject-0.6.0/Sources';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/EasyInject-0.6.0/Sources/AnyInjector.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/ComposedInjector.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Core.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/CoreExtensions.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Extensions.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/GlobalInjector.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazilyInjectedProvider.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazyInjector.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictInjector.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictlyInjectedProvider.swift');
+        };
+        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/AnyInjector.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'AnyInjector.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/ComposedInjector.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ComposedInjector.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Core.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Core.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/CoreExtensions.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'CoreExtensions.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Extensions.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'Extensions.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/GlobalInjector.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'GlobalInjector.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazilyInjectedProvider.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'LazilyInjectedProvider.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazyInjector.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'LazyInjector.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictInjector.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'StrictInjector.swift';
+            sourceTree = '<group>';
+        };
+        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictlyInjectedProvider.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'StrictlyInjectedProvider.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_EasyInject = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_EasyInject;
+            buildPhases = (CompilePhase_EasyInject, ___LinkPhase_EasyInject);
+            buildRules = ();
+            dependencies = ();
+            name = 'EasyInject';
+            productName = EasyInject;
+            productReference = _____Product_EasyInject;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_EasyInject = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'EasyInject.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_EasyInject = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/EasyInject-0.6.0/Sources/AnyInjector.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/ComposedInjector.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/Core.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/CoreExtensions.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/Extensions.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/GlobalInjector.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/LazilyInjectedProvider.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/LazyInjector.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/StrictInjector.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/StrictlyInjectedProvider.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/AnyInjector.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/AnyInjector.swift';
+        };
+        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/ComposedInjector.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/ComposedInjector.swift';
+        };
+        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/Core.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Core.swift';
+        };
+        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/CoreExtensions.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/CoreExtensions.swift';
+        };
+        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/Extensions.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Extensions.swift';
+        };
+        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/GlobalInjector.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/GlobalInjector.swift';
+        };
+        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/LazilyInjectedProvider.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazilyInjectedProvider.swift';
+        };
+        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/LazyInjector.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazyInjector.swift';
+        };
+        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/StrictInjector.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictInjector.swift';
+        };
+        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/StrictlyInjectedProvider.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictlyInjectedProvider.swift';
+        };
+        ___LinkPhase_EasyInject = {
+            isa = PBXFrameworksBuildPhase;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _______Confs_EasyInject = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_EasyInject, _ReleaseConf_EasyInject);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_EasyInject = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ValidatedInjectAdditions.xcodeproj/EasyInject_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'EasyInject'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_EasyInject = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ValidatedInjectAdditions.xcodeproj/EasyInject_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'EasyInject'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_EasyInject = {
+            isa = PBXTargetDependency;
+            target = ______Target_EasyInject;
+        };
+        _______Group_ValidatedExtension = {
+            isa = PBXGroup;
+            name = 'ValidatedExtension';
+            path = 'Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension/ValidatedExtension.swift');
+        };
+        '__PBXFileRef_Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension/ValidatedExtension.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ValidatedExtension.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_ValidatedExtension = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_ValidatedExtension;
+            buildPhases = (CompilePhase_ValidatedExtension, ___LinkPhase_ValidatedExtension);
+            buildRules = ();
+            dependencies = ();
+            name = 'ValidatedExtension';
+            productName = ValidatedExtension;
+            productReference = _____Product_ValidatedExtension;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_ValidatedExtension = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'ValidatedExtension.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_ValidatedExtension = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension/ValidatedExtension.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension/ValidatedExtension.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension/ValidatedExtension.swift';
+        };
+        ___LinkPhase_ValidatedExtension = {
+            isa = PBXFrameworksBuildPhase;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _______Confs_ValidatedExtension = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_ValidatedExtension, _ReleaseConf_ValidatedExtension);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_ValidatedExtension = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ValidatedInjectAdditions.xcodeproj/ValidatedExtension_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'ValidatedExtension'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_ValidatedExtension = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ValidatedInjectAdditions.xcodeproj/ValidatedExtension_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'ValidatedExtension'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_ValidatedExtension = {
+            isa = PBXTargetDependency;
+            target = ______Target_ValidatedExtension;
+        };
+        _______Group_ValidatedInjectAdditions = {
+            isa = PBXGroup;
+            name = 'ValidatedInjectAdditions';
+            path = 'Sources';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Sources/ValidatedInjectAdditions.swift');
+        };
+        '__PBXFileRef_Sources/ValidatedInjectAdditions.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ValidatedInjectAdditions.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_ValidatedInjectAdditions = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_ValidatedInjectAdditions;
+            buildPhases = (CompilePhase_ValidatedInjectAdditions, ___LinkPhase_ValidatedInjectAdditions);
+            buildRules = ();
+            dependencies = (__Dependency_EasyInject, __Dependency_ValidatedExtension);
+            name = 'ValidatedInjectAdditions';
+            productName = ValidatedInjectAdditions;
+            productReference = _____Product_ValidatedInjectAdditions;
+            productType = 'com.apple.product-type.framework';
+        };
+        _____Product_ValidatedInjectAdditions = {
+            isa = PBXFileReference;
+            explicitFileType = 'wrapper.framework';
+            path = 'ValidatedInjectAdditions.framework';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_ValidatedInjectAdditions = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Sources/ValidatedInjectAdditions.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Sources/ValidatedInjectAdditions.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Sources/ValidatedInjectAdditions.swift';
+        };
+        ___LinkPhase_ValidatedInjectAdditions = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_EasyInject_via_ValidatedInjectAdditions, _LinkFileRef_ValidatedExtension_via_ValidatedInjectAdditions);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_EasyInject_via_ValidatedInjectAdditions = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_EasyInject;
+        };
+        _LinkFileRef_ValidatedExtension_via_ValidatedInjectAdditions = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_ValidatedExtension;
+        };
+        _______Confs_ValidatedInjectAdditions = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_ValidatedInjectAdditions, _ReleaseConf_ValidatedInjectAdditions);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_ValidatedInjectAdditions = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditions_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; PRODUCT_BUNDLE_IDENTIFIER = 'ValidatedInjectAdditions'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Debug;
+        };
+        _ReleaseConf_ValidatedInjectAdditions = {
+            isa = XCBuildConfiguration;
+            buildSettings = { SWIFT_VERSION = '3.0'; LD_RUNPATH_SEARCH_PATHS = '$(TOOLCHAIN_DIR)/usr/lib/swift/macosx'; PRODUCT_MODULE_NAME = '$(TARGET_NAME:c99extidentifier)'; ENABLE_TESTABILITY = 'YES'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditions_Info.plist'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; PRODUCT_BUNDLE_IDENTIFIER = 'ValidatedInjectAdditions'; PRODUCT_NAME = '$(TARGET_NAME:c99extidentifier)'; OTHER_LDFLAGS = '$(inherited)'; };
+            name = Release;
+        };
+        __Dependency_ValidatedInjectAdditions = {
+            isa = PBXTargetDependency;
+            target = ______Target_ValidatedInjectAdditions;
+        };
+        _______Group_ValidatedInjectAdditionsTests = {
+            isa = PBXGroup;
+            name = 'ValidatedInjectAdditionsTests';
+            path = 'Tests/ValidatedInjectAdditionsTests';
+            sourceTree = '<group>';
+            children = ('__PBXFileRef_Tests/ValidatedInjectAdditionsTests/ValidatedExtension_EasyInjectTests.swift');
+        };
+        '__PBXFileRef_Tests/ValidatedInjectAdditionsTests/ValidatedExtension_EasyInjectTests.swift' = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = 'ValidatedExtension_EasyInjectTests.swift';
+            sourceTree = '<group>';
+        };
+        ______Target_ValidatedInjectAdditionsTests = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = _______Confs_ValidatedInjectAdditionsTests;
+            buildPhases = (CompilePhase_ValidatedInjectAdditionsTests, ___LinkPhase_ValidatedInjectAdditionsTests);
+            buildRules = ();
+            dependencies = (__Dependency_EasyInject, __Dependency_ValidatedExtension, __Dependency_ValidatedInjectAdditions);
+            name = 'ValidatedInjectAdditionsTests';
+            productName = ValidatedInjectAdditionsTests;
+            productReference = _____Product_ValidatedInjectAdditionsTests;
+            productType = 'com.apple.product-type.bundle.unit-test';
+        };
+        _____Product_ValidatedInjectAdditionsTests = {
+            isa = PBXFileReference;
+            explicitFileType = 'compiled.mach-o.wrapper.cfbundle';
+            path = 'ValidatedInjectAdditionsTests.xctest';
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+        CompilePhase_ValidatedInjectAdditionsTests = {
+            isa = PBXSourcesBuildPhase;
+            files = ('__src_cc_ref_Tests/ValidatedInjectAdditionsTests/ValidatedExtension_EasyInjectTests.swift');
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        '__src_cc_ref_Tests/ValidatedInjectAdditionsTests/ValidatedExtension_EasyInjectTests.swift' = {
+            isa = PBXBuildFile;
+            fileRef = '__PBXFileRef_Tests/ValidatedInjectAdditionsTests/ValidatedExtension_EasyInjectTests.swift';
+        };
+        ___LinkPhase_ValidatedInjectAdditionsTests = {
+            isa = PBXFrameworksBuildPhase;
+            files = (_LinkFileRef_EasyInject_via_ValidatedInjectAdditionsTests, _LinkFileRef_ValidatedExtension_via_ValidatedInjectAdditionsTests, _LinkFileRef_ValidatedInjectAdditions_via_ValidatedInjectAdditionsTests);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        _LinkFileRef_EasyInject_via_ValidatedInjectAdditionsTests = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_EasyInject;
+        };
+        _LinkFileRef_ValidatedExtension_via_ValidatedInjectAdditionsTests = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_ValidatedExtension;
+        };
+        _LinkFileRef_ValidatedInjectAdditions_via_ValidatedInjectAdditionsTests = {
+            isa = PBXBuildFile;
+            fileRef = _____Product_ValidatedInjectAdditions;
+        };
+        _______Confs_ValidatedInjectAdditionsTests = {
+            isa = XCConfigurationList;
+            buildConfigurations = (___DebugConf_ValidatedInjectAdditionsTests, _ReleaseConf_ValidatedInjectAdditionsTests);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+        ___DebugConf_ValidatedInjectAdditionsTests = {
+            isa = XCBuildConfiguration;
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '@loader_path/../Frameworks'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditionsTests_Info.plist'; SWIFT_OPTIMIZATION_LEVEL = '-Onone'; EMBEDDED_CONTENT_CONTAINS_SWIFT = 'YES'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
+            name = Debug;
+        };
+        _ReleaseConf_ValidatedInjectAdditionsTests = {
+            isa = XCBuildConfiguration;
+            buildSettings = { LD_RUNPATH_SEARCH_PATHS = '@loader_path/../Frameworks'; FRAMEWORK_SEARCH_PATHS = '$(PLATFORM_DIR)/Developer/Library/Frameworks'; OTHER_SWIFT_FLAGS = '$(inherited)'; INFOPLIST_FILE = 'ValidatedInjectAdditions.xcodeproj/ValidatedInjectAdditionsTests_Info.plist'; EMBEDDED_CONTENT_CONTAINS_SWIFT = 'YES'; OTHER_LDFLAGS = '$(inherited)'; SWIFT_VERSION = '3.0'; };
+            name = Release;
+        };
+        __Dependency_ValidatedInjectAdditionsTests = {
+            isa = PBXTargetDependency;
+            target = ______Target_ValidatedInjectAdditionsTests;
+        };
+        '__PBXFileRef_ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig' = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.xcconfig;
+            path = 'ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig';
+            sourceTree = '<group>';
+        };
+        _____Configs_ = {
+            isa = PBXGroup;
+            children = ('__PBXFileRef_ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig');
+            name = Configs;
+            sourceTree = '<group>';
+        };
+        _____Sources_ = {
+            isa = PBXGroup;
+            children = (_______Group_EasyInject, _______Group_ValidatedExtension, _______Group_ValidatedInjectAdditions);
+            name = Sources;
+            sourceTree = '<group>';
+        };
+        Dependencies_ = {
+            isa = PBXGroup;
+            children = (_______Group_EasyInject, _______Group_ValidatedExtension);
+            name = Dependencies;
+            sourceTree = '<group>';
+        };
+        _______Tests_ = {
+            isa = PBXGroup;
+            children = (_______Group_ValidatedInjectAdditionsTests);
+            name = Tests;
+            sourceTree = '<group>';
+        };
+       TestProducts_ = {
+            isa = PBXGroup;
+            children = (_____Product_ValidatedInjectAdditionsTests);
+            name = Tests;
+            sourceTree = '<group>';
+        };
+        ____Products_ = {
+            isa = PBXGroup;
+            children = (TestProducts_, _____Product_EasyInject, _____Product_ValidatedExtension, _____Product_ValidatedInjectAdditions);
+            name = Products;
+            sourceTree = '<group>';
+        };
+        _______Debug_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Debug;
+        };
+        _____Release_ = {
+            isa = XCBuildConfiguration;
+            baseConfigurationReference = '__PBXFileRef_ValidatedInjectAdditions.xcodeproj/Configs/Project.xcconfig';
+            buildSettings = {};
+            name = Release;
+        };
+        ___RootConfs_ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (_______Debug_, _____Release_);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Debug;
+        };
+    };
 }

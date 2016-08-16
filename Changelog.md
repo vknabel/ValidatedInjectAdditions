@@ -1,3 +1,11 @@
+# 0.2.0
+*Released: 12/08/2016*
+
+**Breaking Changes:**
+
+- Updated to latest Swift Beta 3.0 - @vknabel
+- Updated `EasyInject` to 0.6 - @vknabel
+
 #0.1.1
 *Released: 12/08/2016*
 

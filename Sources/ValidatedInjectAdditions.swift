@@ -4,7 +4,11 @@ import EasyInject
 public protocol ValidatedDependency {
     associatedtype DependencyValidator: Validator
 
+    #if swift(>=3.0)
+    init<VT: ValidatedType>(validated dependencies: VT) where VT.ValidatorType == DependencyValidator
+    #else
     init<VT: ValidatedType where VT.ValidatorType == DependencyValidator>(validated dependencies: VT)
+    #endif
 }
 public extension ValidatedDependency {
     public init?(validating dependencies: DependencyValidator.WrappedType) {

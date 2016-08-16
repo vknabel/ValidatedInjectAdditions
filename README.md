@@ -12,9 +12,9 @@ import PackageDescription
 let package = Package(
     name: "YourPackage",
     dependencies: [
-        .Package(url: "https://github.com/vknabel/EasyInject.git", majorVersion: 0, minor: 3),
+        .Package(url: "https://github.com/vknabel/EasyInject.git", majorVersion: 0, minor: 6),
         .Package(url: "https://github.com/vknabel/ValidatedExtension.git", majorVersion: 3, minor: 0),
-        .Package(url: "https://github.com/vknabel/ValidatedInjectAdditions.git", majorVersion: 0, minor: 1)
+        .Package(url: "https://github.com/vknabel/ValidatedInjectAdditions.git", majorVersion: 0, minor: 2)
     ]
 )
 ```
@@ -24,7 +24,7 @@ let package = Package(
 ```ruby
 github "vknabel/EasyInject"
 github "vknabel/ValidatedExtension"
-github "vknabel/ValidatedInjectAdditions" ~> 0.1
+github "vknabel/ValidatedInjectAdditions" ~> 0.2
 ```
 
 ### CocoaPods
@@ -35,7 +35,7 @@ use_frameworks!
 
 pod 'EasyInject'
 pod 'ValidatedExtension'
-pod 'ValidatedInjectAdditions', '~> 0.1'
+pod 'ValidatedInjectAdditions', '~> 0.2'
 ```
 
 ## Example
