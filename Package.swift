@@ -5,9 +5,9 @@ let package = Package(
     dependencies: [
         .Package(
             url: "https://github.com/vknabel/EasyInject.git",
-            versions: Version(0,6,0)..<Version(0,7,0)),
+            versions: Version(0,8,0)..<Version(0,9,0)),
         .Package(
             url: "https://github.com/vknabel/ValidatedExtension.git",
-            versions: Version(3,0,0)..<Version(4,0,0))
+            versions: Version(4,0,0)..<Version(5,0,0))
     ]
 )

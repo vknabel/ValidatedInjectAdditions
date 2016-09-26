@@ -40,65 +40,65 @@
         _______Group_EasyInject = {
             isa = PBXGroup;
             name = 'EasyInject';
-            path = 'Packages/EasyInject-0.6.0/Sources';
+            path = 'Packages/EasyInject-0.8.1/Sources';
             sourceTree = '<group>';
-            children = ('__PBXFileRef_Packages/EasyInject-0.6.0/Sources/AnyInjector.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/ComposedInjector.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Core.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/CoreExtensions.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Extensions.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/GlobalInjector.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazilyInjectedProvider.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazyInjector.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictInjector.swift', '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictlyInjectedProvider.swift');
+            children = ('__PBXFileRef_Packages/EasyInject-0.8.1/Sources/AnyInjector.swift', '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/ComposedInjector.swift', '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/Core.swift', '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/CoreExtensions.swift', '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/Extensions.swift', '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/GlobalInjector.swift', '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/LazilyInjectedProvider.swift', '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/LazyInjector.swift', '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/StrictInjector.swift', '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/StrictlyInjectedProvider.swift');
         };
-        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/AnyInjector.swift' = {
+        '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/AnyInjector.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'AnyInjector.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/ComposedInjector.swift' = {
+        '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/ComposedInjector.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'ComposedInjector.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Core.swift' = {
+        '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/Core.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Core.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/CoreExtensions.swift' = {
+        '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/CoreExtensions.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'CoreExtensions.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Extensions.swift' = {
+        '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/Extensions.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'Extensions.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/GlobalInjector.swift' = {
+        '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/GlobalInjector.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'GlobalInjector.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazilyInjectedProvider.swift' = {
+        '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/LazilyInjectedProvider.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'LazilyInjectedProvider.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazyInjector.swift' = {
+        '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/LazyInjector.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'LazyInjector.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictInjector.swift' = {
+        '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/StrictInjector.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'StrictInjector.swift';
             sourceTree = '<group>';
         };
-        '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictlyInjectedProvider.swift' = {
+        '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/StrictlyInjectedProvider.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'StrictlyInjectedProvider.swift';
@@ -123,48 +123,48 @@
         };
         CompilePhase_EasyInject = {
             isa = PBXSourcesBuildPhase;
-            files = ('__src_cc_ref_Packages/EasyInject-0.6.0/Sources/AnyInjector.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/ComposedInjector.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/Core.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/CoreExtensions.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/Extensions.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/GlobalInjector.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/LazilyInjectedProvider.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/LazyInjector.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/StrictInjector.swift', '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/StrictlyInjectedProvider.swift');
+            files = ('__src_cc_ref_Packages/EasyInject-0.8.1/Sources/AnyInjector.swift', '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/ComposedInjector.swift', '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/Core.swift', '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/CoreExtensions.swift', '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/Extensions.swift', '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/GlobalInjector.swift', '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/LazilyInjectedProvider.swift', '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/LazyInjector.swift', '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/StrictInjector.swift', '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/StrictlyInjectedProvider.swift');
             runOnlyForDeploymentPostprocessing = 0;
         };
-        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/AnyInjector.swift' = {
+        '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/AnyInjector.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/AnyInjector.swift';
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/AnyInjector.swift';
         };
-        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/ComposedInjector.swift' = {
+        '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/ComposedInjector.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/ComposedInjector.swift';
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/ComposedInjector.swift';
         };
-        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/Core.swift' = {
+        '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/Core.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Core.swift';
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/Core.swift';
         };
-        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/CoreExtensions.swift' = {
+        '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/CoreExtensions.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/CoreExtensions.swift';
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/CoreExtensions.swift';
         };
-        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/Extensions.swift' = {
+        '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/Extensions.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/Extensions.swift';
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/Extensions.swift';
         };
-        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/GlobalInjector.swift' = {
+        '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/GlobalInjector.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/GlobalInjector.swift';
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/GlobalInjector.swift';
         };
-        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/LazilyInjectedProvider.swift' = {
+        '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/LazilyInjectedProvider.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazilyInjectedProvider.swift';
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/LazilyInjectedProvider.swift';
         };
-        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/LazyInjector.swift' = {
+        '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/LazyInjector.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/LazyInjector.swift';
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/LazyInjector.swift';
         };
-        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/StrictInjector.swift' = {
+        '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/StrictInjector.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictInjector.swift';
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/StrictInjector.swift';
         };
-        '__src_cc_ref_Packages/EasyInject-0.6.0/Sources/StrictlyInjectedProvider.swift' = {
+        '__src_cc_ref_Packages/EasyInject-0.8.1/Sources/StrictlyInjectedProvider.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/EasyInject-0.6.0/Sources/StrictlyInjectedProvider.swift';
+            fileRef = '__PBXFileRef_Packages/EasyInject-0.8.1/Sources/StrictlyInjectedProvider.swift';
         };
         ___LinkPhase_EasyInject = {
             isa = PBXFrameworksBuildPhase;
@@ -194,11 +194,11 @@
         _______Group_ValidatedExtension = {
             isa = PBXGroup;
             name = 'ValidatedExtension';
-            path = 'Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension';
+            path = 'Packages/ValidatedExtension-4.0.0/Sources/ValidatedExtension';
             sourceTree = '<group>';
-            children = ('__PBXFileRef_Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension/ValidatedExtension.swift');
+            children = ('__PBXFileRef_Packages/ValidatedExtension-4.0.0/Sources/ValidatedExtension/ValidatedExtension.swift');
         };
-        '__PBXFileRef_Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension/ValidatedExtension.swift' = {
+        '__PBXFileRef_Packages/ValidatedExtension-4.0.0/Sources/ValidatedExtension/ValidatedExtension.swift' = {
             isa = PBXFileReference;
             lastKnownFileType = sourcecode.swift;
             path = 'ValidatedExtension.swift';
@@ -223,12 +223,12 @@
         };
         CompilePhase_ValidatedExtension = {
             isa = PBXSourcesBuildPhase;
-            files = ('__src_cc_ref_Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension/ValidatedExtension.swift');
+            files = ('__src_cc_ref_Packages/ValidatedExtension-4.0.0/Sources/ValidatedExtension/ValidatedExtension.swift');
             runOnlyForDeploymentPostprocessing = 0;
         };
-        '__src_cc_ref_Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension/ValidatedExtension.swift' = {
+        '__src_cc_ref_Packages/ValidatedExtension-4.0.0/Sources/ValidatedExtension/ValidatedExtension.swift' = {
             isa = PBXBuildFile;
-            fileRef = '__PBXFileRef_Packages/ValidatedExtension-3.0.1/Sources/ValidatedExtension/ValidatedExtension.swift';
+            fileRef = '__PBXFileRef_Packages/ValidatedExtension-4.0.0/Sources/ValidatedExtension/ValidatedExtension.swift';
         };
         ___LinkPhase_ValidatedExtension = {
             isa = PBXFrameworksBuildPhase;
